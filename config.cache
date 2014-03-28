@@ -1,0 +1,52 @@
+# This file is a shell script that caches the results of configure
+# tests run on this system so they can be shared between configure
+# scripts and configure runs.  It is not useful on other systems.
+# If it contains results you don't want to keep, you may remove or edit it.
+#
+# By default, configure uses ./config.cache as the cache file,
+# creating it if it does not exist already.  You can give configure
+# the --cache-file=FILE option to use a different cache file; that is
+# what configure does when it calls configure scripts in
+# subdirectories, so they share the cache.
+# Giving --cache-file=/dev/null disables caching, for debugging configure.
+# config.status only pays attention to the cache file if you give it the
+# --recheck option to rerun configure.
+#
+ac_cv_check_typedef_header=${ac_cv_check_typedef_header='sys/types.h'}
+ac_cv_endianess=${ac_cv_endianess='little'}
+ac_cv_func_dlopen=${ac_cv_func_dlopen='no'}
+ac_cv_func_mallopt=${ac_cv_func_mallopt='yes'}
+ac_cv_func_setproctitle=${ac_cv_func_setproctitle='no'}
+ac_cv_func_strlcpy=${ac_cv_func_strlcpy='no'}
+ac_cv_func_vsnprintf=${ac_cv_func_vsnprintf='yes'}
+ac_cv_header_getopt_h=${ac_cv_header_getopt_h='yes'}
+ac_cv_header_stdc=${ac_cv_header_stdc='yes'}
+ac_cv_header_sys_select_h=${ac_cv_header_sys_select_h='yes'}
+ac_cv_header_sys_time_h=${ac_cv_header_sys_time_h='yes'}
+ac_cv_header_sys_wait_h=${ac_cv_header_sys_wait_h='yes'}
+ac_cv_lib_dl_dlopen=${ac_cv_lib_dl_dlopen='yes'}
+ac_cv_lib_mysqlclient_mysql_real_connect=${ac_cv_lib_mysqlclient_mysql_real_connect='yes'}
+ac_cv_lib_pcap_pcap_dispatch=${ac_cv_lib_pcap_pcap_dispatch='yes'}
+ac_cv_lib_pcap_pcap_setnonblock=${ac_cv_lib_pcap_pcap_setnonblock='yes'}
+ac_cv_lib_rt_clock_gettime=${ac_cv_lib_rt_clock_gettime='yes'}
+ac_cv_lib_stdcpp_main=${ac_cv_lib_stdcpp_main='yes'}
+ac_cv_path_install=${ac_cv_path_install='/usr/bin/install -c'}
+ac_cv_prog_CC=${ac_cv_prog_CC='gcc'}
+ac_cv_prog_CPP=${ac_cv_prog_CPP='gcc -E'}
+ac_cv_prog_MAKE=${ac_cv_prog_MAKE='make'}
+ac_cv_prog_RANLIB=${ac_cv_prog_RANLIB='ranlib'}
+ac_cv_prog_cc_cross=${ac_cv_prog_cc_cross='no'}
+ac_cv_prog_cc_g=${ac_cv_prog_cc_g='yes'}
+ac_cv_prog_cc_works=${ac_cv_prog_cc_works='yes'}
+ac_cv_prog_gcc=${ac_cv_prog_gcc='yes'}
+ac_cv_prog_make_make_set=${ac_cv_prog_make_make_set='yes'}
+ac_cv_type_signal=${ac_cv_type_signal='void'}
+ac_cv_type_u_int16_t_sys_types_h=${ac_cv_type_u_int16_t_sys_types_h='yes'}
+ac_cv_type_u_int32_t_sys_types_h=${ac_cv_type_u_int32_t_sys_types_h='yes'}
+ac_cv_type_u_int64_t_sys_types_h=${ac_cv_type_u_int64_t_sys_types_h='yes'}
+ac_cv_type_u_int8_t_sys_types_h=${ac_cv_type_u_int8_t_sys_types_h='yes'}
+ac_cv_type_uint16_t_sys_types_h=${ac_cv_type_uint16_t_sys_types_h='no'}
+ac_cv_type_uint32_t_sys_types_h=${ac_cv_type_uint32_t_sys_types_h='no'}
+ac_cv_type_uint64_t_sys_types_h=${ac_cv_type_uint64_t_sys_types_h='no'}
+ac_cv_type_uint8_t_sys_types_h=${ac_cv_type_uint8_t_sys_types_h='no'}
+ac_cv_unaligned=${ac_cv_unaligned='ok'}

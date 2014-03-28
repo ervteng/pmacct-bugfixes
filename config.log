@@ -1,0 +1,125 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:624: checking for a BSD compatible install
+configure:677: checking whether build environment is sane
+configure:734: checking whether make sets ${MAKE}
+configure:780: checking for working aclocal-1.4
+configure:793: checking for working autoconf
+configure:806: checking for working automake-1.4
+configure:819: checking for working autoheader
+configure:832: checking for working makeinfo
+configure:856: checking for gcc
+configure:969: checking whether the C compiler (gcc  ) works
+configure:985: gcc -o conftest    conftest.c  1>&5
+configure:1011: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:1016: checking whether we are using GNU C
+configure:1044: checking whether gcc accepts -g
+configure:1080: checking OS
+configure:1084: checking hardware
+configure:1090: checking for ranlib
+configure:1139: checking whether to enable debugging compiler options
+configure:1157: checking whether to relax compiler optimizations
+configure:1171: checking whether to disable shared objects
+configure:1276: checking for dlopen
+configure:1324: checking for dlopen in -ldl
+configure:1411: checking for gmake
+configure:1470: checking whether make sets ${MAKE}
+configure:1498: checking for __progname
+configure:1507: gcc -o conftest -O2 -g -O2   conftest.c  -ldl 1>&5
+configure:1523: checking for extra flags needed to export symbols
+configure:1540: gcc -o conftest -O2 -g -O2  -Wl,--export-dynamic  conftest.c  -ldl 1>&5
+configure:1578: checking for static inline
+configure:1594: gcc -c -O2 -g -O2  conftest.c 1>&5
+configure:1611: checking endianess
+configure:1629: gcc -o conftest -O2 -g -O2  -Wl,--export-dynamic  conftest.c  -ldl 1>&5
+configure: In function 'main':
+configure:1625:3: warning: incompatible implicit declaration of built-in function 'exit' [enabled by default]
+configure:1669: checking unaligned accesses
+configure:1716: checking whether to enable L2 features
+configure:1741: checking whether to enable IPv6 code
+configure:1921: checking whether to enable IP prefix labels
+configure:1970: checking default locations for pcap.h
+configure:2048: checking default locations for libpcap
+configure:2070: checking for pcap_dispatch in -lpcap
+configure:2121: checking for pcap_setnonblock in -lpcap
+configure:2176: checking packet capture type
+configure:2216: checking whether to enable MySQL support
+configure:2218: checking how to run the C preprocessor
+configure:2623: checking whether to enable PostgreSQL support
+configure:2662: checking default locations for libpq
+configure:2757: checking your own PostgreSQL headers
+configure:2840: checking whether to enable MongoDB support
+configure:3047: checking whether to enable SQLite3 support
+configure:3263: checking whether to enable RabbitMQ/AMQP support
+configure:3470: checking whether to enable GeoIP support
+configure:3676: checking whether to enable Jansson support
+configure:3894: checking for ANSI C header files
+configure:3998: checking for sys/wait.h that is POSIX.1 compatible
+configure:4043: checking for getopt.h
+configure:4043: checking for sys/select.h
+configure:4043: checking for sys/time.h
+configure:4081: checking for u_int64_t in sys/types.h
+configure:4096: gcc -c -O2 -g -O2  conftest.c 1>&5
+configure:4121: checking for u_int32_t in sys/types.h
+configure:4136: gcc -c -O2 -g -O2  conftest.c 1>&5
+configure:4161: checking for u_int16_t in sys/types.h
+configure:4176: gcc -c -O2 -g -O2  conftest.c 1>&5
+configure:4201: checking for u_int8_t in sys/types.h
+configure:4216: gcc -c -O2 -g -O2  conftest.c 1>&5
+configure:4241: checking for uint64_t in sys/types.h
+configure:4256: gcc -c -O2 -g -O2  conftest.c 1>&5
+configure: In function 'main':
+configure:4252:16: error: 'uint64_t' undeclared (first use in this function)
+configure:4252:16: note: each undeclared identifier is reported only once for each function it appears in
+configure: failed program was:
+#line 4249 "configure"
+#include "confdefs.h"
+#include <sys/types.h>
+int main() {
+int x = sizeof(uint64_t); x = x;
+; return 0; }
+configure:4281: checking for uint32_t in sys/types.h
+configure:4296: gcc -c -O2 -g -O2  conftest.c 1>&5
+configure: In function 'main':
+configure:4292:16: error: 'uint32_t' undeclared (first use in this function)
+configure:4292:16: note: each undeclared identifier is reported only once for each function it appears in
+configure: failed program was:
+#line 4289 "configure"
+#include "confdefs.h"
+#include <sys/types.h>
+int main() {
+int x = sizeof(uint32_t); x = x;
+; return 0; }
+configure:4321: checking for uint16_t in sys/types.h
+configure:4336: gcc -c -O2 -g -O2  conftest.c 1>&5
+configure: In function 'main':
+configure:4332:16: error: 'uint16_t' undeclared (first use in this function)
+configure:4332:16: note: each undeclared identifier is reported only once for each function it appears in
+configure: failed program was:
+#line 4329 "configure"
+#include "confdefs.h"
+#include <sys/types.h>
+int main() {
+int x = sizeof(uint16_t); x = x;
+; return 0; }
+configure:4361: checking for uint8_t in sys/types.h
+configure:4376: gcc -c -O2 -g -O2  conftest.c 1>&5
+configure: In function 'main':
+configure:4372:16: error: 'uint8_t' undeclared (first use in this function)
+configure:4372:16: note: each undeclared identifier is reported only once for each function it appears in
+configure: failed program was:
+#line 4369 "configure"
+#include "confdefs.h"
+#include <sys/types.h>
+int main() {
+int x = sizeof(uint8_t); x = x;
+; return 0; }
+configure:4402: checking whether to enable 64bit counters
+configure:4427: checking whether to enable multithreading in pmacct
+configure:4491: checking whether to enable ULOG support
+configure:4509: checking return type of signal handlers
+configure:4553: checking for strlcpy
+configure:4553: checking for vsnprintf
+configure:4553: checking for setproctitle
+configure:4553: checking for mallopt
